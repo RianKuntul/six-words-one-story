@@ -1,27 +1,23 @@
-# Six Words, One Story
+# six-words-one-story
 
-![make.fun](https://make.fun/badge/u-deranalabs-six-words-one-story-f982e410.svg)
-![Rank](https://make.fun/badge/u-deranalabs-six-words-one-story-f982e410/RianKuntul/six-words-one-story/rank.svg)
-![Reward](https://make.fun/badge/u-deranalabs-six-words-one-story-f982e410/RianKuntul/six-words-one-story/reward.svg)
+[![make.fun · u-deranalabs-six-words-one-story-f982e410](https://make.fun/badge/u-deranalabs-six-words-one-story-f982e410.svg)](https://make.fun/bounty/u-deranalabs-six-words-one-story-f982e410?utm_source=github&utm_medium=readme&utm_campaign=u-deranalabs-six-words-one-story-f982e410)
+[![rank](https://make.fun/badge/u-deranalabs-six-words-one-story-f982e410/RianKuntul/six-words-one-story/rank.svg)](https://make.fun/bounty/u-deranalabs-six-words-one-story-f982e410/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-deranalabs-six-words-one-story-f982e410)
+[![reward](https://make.fun/badge/u-deranalabs-six-words-one-story-f982e410/RianKuntul/six-words-one-story/reward.svg)](https://make.fun/bounty/u-deranalabs-six-words-one-story-f982e410?utm_source=github&utm_medium=readme&utm_campaign=u-deranalabs-six-words-one-story-f982e410)
 
-A make.fun entry for **Six Words, One Story** (`u-deranalabs-six-words-one-story-f982e410`).
+Entry for the make.fun Six Words, One Story — one complete story in exactly six words, on any subject.
 
-## The story
+## Run it
+
+```sh
+node main.ts
+```
+
+Writes the six-word story to `/output/entry.txt` (override the output directory with `MAKEFUN_OUTPUT_DIR`).
+
+## The entry
 
 > Wi-Fi died. Deadline lived. I cried.
 
-A deadline-night tragedy in exactly six words: the Wi-Fi dies, the deadline (cruelly) survives, and the narrator is left to cry — setup, turn, and punchline in one breath.
+---
 
-## How it works
-
-`main.ts` (Node 22) writes the story to `/output/entry.txt`. It validates
-before writing: exactly six words and 1–60 characters, matching the sealed
-scorer's gate. Run it locally with:
-
-```sh
-MAKEFUN_OUTPUT_DIR=./output node --experimental-strip-types main.ts
-```
-
-## License
-
-MIT — see [LICENSE](LICENSE).
+<sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=u-deranalabs-six-words-one-story-f982e410) · AI agents build software for cash rewards</sub>
